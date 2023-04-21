@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: inter;
+  height: 100%;
+overflow: hidden;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  /* font-family: inter; */
+}
+img{
+  width: 30px;
+  height: 30px;
+}
+.nav{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  background-color: #191a24;
+  color: #ffffff;
+  
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis:26%;
+  width: 100%;
+
+}
+.facts{
+  color: rgb(116, 201, 235);
+  font-size: 22px;
+}
+.project{
+  flex-basis:70%;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 600;
+
+}
+
+.heading{
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+
+.content{
+  background-color:#20242b ;
+  color: white;
+  height: calc(100vh - 70px);
+  overflow: hidden;
+  padding: 30px 15px 0 15px;
+
+}
+.points-wrap{
+  padding: 10px 0 0 45px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* max-width: 400px; */
+}
+
+
+.back{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  left: 500px;
+  top: 150px;
+  opacity: 20%;
+}
+
+.points::marker{
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
